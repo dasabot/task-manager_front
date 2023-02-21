@@ -1,0 +1,24 @@
+@import "../../assets/variables.scss";
+
+.circleButton {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $primary;
+    } 
+
+    &__icon {
+        fill: $white;
+        stroke: $white;
+        width: 24px;
+        height: 24px;
+    }
+}

@@ -1,3 +1,35 @@
-h1 {
-    color: blue;
+@import "../../assets/variables.scss";
+
+.aside {
+  width: fit-content;
+  padding: 32px;
+  background-color: $dark-bg;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__buttons-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+.logo {
+  margin-bottom: 100px;
+  width: 44px;
+  height: 42px;
+
+  &__icon {
+    width: 44px;
+    height: 42px;
+    fill: black;
+  }
 }
