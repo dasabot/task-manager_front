@@ -7,8 +7,8 @@ export default function Aside() {
   return (
     <div className="aside">
       <div className="aside__container">
-        <div className="logo">
-          <svg className="logo__icon">
+        <div className="aside-logo">
+          <svg className="aside-logo__icon">
             <use href={sprite + "#icon-logo"}></use>
           </svg>
         </div>

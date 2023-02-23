@@ -1,0 +1,23 @@
+@import "../../assets/variables.scss";
+
+.sign-up-with-btn {
+  font-family: "Pavanam", sans-serif;
+  padding: 12px 21px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border: 1px solid $black;
+  font-size: 18px;
+  line-height: 1.38;
+  letter-spacing: .05em;
+  cursor: pointer;
+  width: 270px;
+  filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.2));
+
+  &__icon {
+    width: 29px;
+    height: 30px;
+    fill: $black;
+  }
+}

@@ -1,0 +1,44 @@
+@import "../../assets/variables.scss";
+
+.label-input {
+    width: 100%;
+    position: relative;
+    font-family: 'Tauri', sans-serif;
+
+    &:hover .label-input__input {
+        background-color: transparent;
+        outline: transparent;
+        border-bottom: 2px $grey solid;
+      }
+
+      &:hover .label-input__icon {
+        fill: $grey;
+      }
+
+  &:focus-within .label-input__input {
+    background-color: transparent;
+    outline: transparent;
+    border-bottom: 2px $grey solid;
+  }
+
+  &__input {
+    width: 100%;
+    height: 25px;
+    background-color: transparent;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2px $light-grey solid;
+    font-size: 24px;
+    padding-bottom: 4px;
+  }
+
+  &__icon {
+    width: 30px;
+    height: 22px;
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    fill: $primary;
+  }
+}
